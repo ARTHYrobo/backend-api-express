@@ -1,0 +1,26 @@
+{
+  "name": "backend-api-express",
+  "version": "1.0.0",
+  "description": "projeto node com express, prisma, zod, no padrão de projeto mvc.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "batata": "nodemon src/server.js"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "express",
+    "prisma",
+    "zod",
+    "api",
+    "jwt",
+    "mvc"
+  ],
+  "author": "ARTHUR",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
